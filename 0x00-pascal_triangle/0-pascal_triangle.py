@@ -2,7 +2,11 @@
 """
 a script defining a function which prints the pascal triangle
 """
+
+
 def pascal_triangle(n):
+    """a function which prints the pascal triangle in integers
+    """
     if n <= 0:
         return []
 
